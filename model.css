@@ -1,0 +1,136 @@
+/* Reset margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family:sans-serif ;
+    background-color: #223457;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Header section (profile header) */
+  .profile-header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(33, 77, 144);
+    color: white;
+    padding: 25px 20px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    
+
+  }
+  
+  .profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid rgb(238, 235, 235);
+    margin-bottom: 19px;
+  }
+  
+  .profile-header h1 {
+    font-size: 2em;
+    margin-bottom: -10px;
+  }
+  
+  .profile-header p {
+    font-size: 1.2em;
+  }
+  
+  /* Main profile section */
+  .profile-container {
+    background-color: white;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 8px 8px;
+  }
+  
+  /* Section title styling */
+  .pemisah {
+    font-size: 1.5em;
+    color: #2c70ee;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #298ecc;
+    padding-bottom: 10px;
+  }
+  
+  /* About me section */
+  .about-me {
+    margin-bottom: 30px;
+  }
+  
+  .about-me p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  
+  /* Experience section */
+  .experience-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .experience-item:last-child {
+    border-bottom: none;
+  }
+  
+  .experience-item h3 {
+    font-size: 1.2em;
+    color: #0077b5;
+    margin-bottom: 5px;
+  }
+  
+  .experience-item .role {
+    font-weight: bold;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .experience-item .company {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .experience-item .duration {
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .topskills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .topskills i {
+    font-size: 2em;
+  }
